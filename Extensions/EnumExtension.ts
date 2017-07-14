@@ -14,4 +14,7 @@ class EnumExtension {
     private static getObjValues(e: any): (number | string)[] {
         return Object.keys(e).map(k => e[k]);
     }
+    private static x():void{
+        
+    }
 }
