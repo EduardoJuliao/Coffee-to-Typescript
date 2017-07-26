@@ -6,9 +6,14 @@
     "@types/bootstrap": "^3.3.32",
     "@types/jquery": "^3.2.8",
     "@types/jquery.datatables": "^1.10.36",
-    "@types/select2": "^4.0.38"
+    "@types/select2": "^4.0.38",
+    "@types/toastr": "^2.1.34",
+    "linqts": "^1.8.3"
   },
-  "devDependencies": {},
+  "main": "index.d.ts",
+  "devDependencies": {
+    "typings": "^2.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EduardoJuliao/Coffee-to-Typescript.git"
