@@ -4,10 +4,13 @@
   "description": "A quick library to help with typescript",
   "dependencies": {
     "@types/bootstrap": "^3.3.32",
-    "@types/jquery": "^3.2.8",
+    "@types/jquery": "^3.2.9",
     "@types/jquery.datatables": "^1.10.36",
+    "@types/linq": "^2.2.33",
     "@types/select2": "^4.0.38",
     "@types/toastr": "^2.1.34",
+    "jquery": "^3.2.1",
+    "linq": "^3.0.8",
     "linqts": "^1.8.3"
   },
   "main": "index.d.ts",

@@ -1,3 +1,6 @@
+export {ServiceCallerOptions}
+import {HttpMethod} from "./HttpMethod";
+
 class ServiceCallerOptions{
     private static defaultBeforeSend:  (jqXHR: JQueryXHR, settings: JQueryAjaxSettings) => any;
     private static defaultSuccess:  (data: any, textStatus: string, jqXHR: JQueryXHR) => any;

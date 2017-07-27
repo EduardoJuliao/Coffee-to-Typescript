@@ -1,3 +1,8 @@
+
+import {ServiceCallerOptions} from "./ServiceCallerOptions";
+import {HttpMethod} from "./HttpMethod";
+
+export {ServiceCaller}
 class ServiceCaller{
     
     private static baseUrl: string;
@@ -37,7 +42,11 @@ class ServiceCaller{
         }
     }
 
-    public send(options: ServiceCallerOptions): void {
+    public send(options?: ServiceCallerOptions): void {
+
+        if(options == null){
+            options = new ServiceCallerOptions();
+        }
         $.ajax({
             url: this.action,
             async: options.async,

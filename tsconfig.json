@@ -9,7 +9,7 @@
     "outDir": "./Scripts/ts",
     "pretty": false,
     "rootDir": "./Typescripts",
-    "target": "es5",
+    "target": "es6",
     "sourceMap": true
   },
   "exclude": [

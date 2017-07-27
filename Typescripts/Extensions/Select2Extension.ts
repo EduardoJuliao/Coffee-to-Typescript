@@ -1,3 +1,5 @@
+import * as Enumerable from "linq";
+
 class Select2Extension{
   /**
      * Populate the designated select2 with jQuery data.
@@ -12,8 +14,8 @@ class Select2Extension{
         select2.empty();
          
         var isFirst = true;
-        $.Enumerable.From(data)
-            .ForEach((item:any) => {
+        Enumerable.from(data)
+            .forEach((item:any) => {
                 if(isFirst){
                     if (select2.attr("multiple") == undefined) {
                         select2.append(`<option value="0">Please, select</option>`);
